@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="6dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="3dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginRight="3dp"
+        android:focusable="true"
+        android:padding="10dp"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:background="#F8F8F8"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/rasm"
+                android:layout_width="111dp"
+                android:layout_height="104dp"
+                android:layout_alignParentStart="true"
+                android:src="@drawable/jarima" />
+
+            <TextView
+                android:id="@+id/imageview"
+                android:layout_width="252dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/rasm"
+                android:text="sdfsdf"
+                android:textSize="16dp" />
+
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

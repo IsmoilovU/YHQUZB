@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:scrollbarAlwaysDrawVerticalTrack="true"
+tools:context=".MainActivity"
+android:background="@drawable/hqdefault"
+    >
+
+<LinearLayout
+    android:layout_marginTop="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="15dp"
+    android:layout_weight="1">
+
+ <Button
+     android:layout_width="180dp"
+     android:id="@+id/jarima"
+     android:layout_height="match_parent"
+     android:background="@drawable/jarima"
+     android:onClick="Jarima"
+     tools:ignore="OnClick" />
+
+ <Button
+     android:layout_width="180dp"
+     android:id="@+id/yhq"
+     android:layout_height="match_parent"
+     android:layout_marginLeft="10dp"
+     android:background="@drawable/yhq"
+     android:onClick="Yhq"
+     tools:ignore="OnClick"
+     />
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="15dp"
+    android:layout_marginLeft="15dp"
+    android:layout_weight="1">
+
+ <Button
+     android:layout_width="180dp"
+     android:id="@+id/yolbel"
+     android:layout_height="match_parent"
+     android:background="@drawable/yolbelgilari"
+     android:onClick="yolbel"
+     tools:ignore="OnClick"/>
+
+ <Button
+     android:layout_width="180dp"
+     android:id="@+id/yolchiziq"
+     android:layout_height="match_parent"
+     android:layout_marginLeft="10dp"
+     android:background="@drawable/yolchiziq"
+     android:onClick="yolchiziq"
+     tools:ignore="OnClick"/>
+</LinearLayout>
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="15dp"
+    android:layout_marginLeft="15dp"
+    android:layout_weight="1">
+
+ <Button
+     android:layout_width="180dp"
+     android:id="@+id/nomer"
+     android:layout_height="match_parent"
+     android:background="@drawable/nomer"
+     android:onClick="nomer"
+     tools:ignore="OnClick"/>
+
+ <Button
+     android:layout_width="180dp"
+     android:id="@+id/birinchi"
+     android:layout_height="match_parent"
+     android:layout_marginLeft="10dp"
+     android:background="@drawable/birinchiy"
+     android:onClick="birinchi"
+     tools:ignore="OnClick"/>
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="15dp"
+    android:layout_marginLeft="15dp"
+    android:layout_marginBottom="10dp"
+    android:layout_weight="1">
+
+ <Button
+     android:layout_width="180dp"
+     android:id="@+id/transfoyda"
+     android:layout_height="match_parent"
+     android:background="@drawable/transfoy"
+     android:onClick="tranfoyda"
+     tools:ignore="OnClick"/>
+
+ <Button
+     android:layout_width="180dp"
+     android:id="@+id/danhodim"
+     android:layout_height="match_parent"
+     android:layout_marginLeft="10dp"
+     android:background="@drawable/danh"
+     android:onClick="danhodim"
+     tools:ignore="OnClick"/>
+</LinearLayout>
+
+</LinearLayout>
